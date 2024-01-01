@@ -18,7 +18,7 @@ function Counter(props) {
             <h2>{props.item.number}</h2>
             <button onClick={() => props.hdlUpdate(props.item.id, -1)}>-</button>
             <button onClick={() => props.hdlUpdate(props.item.id, -props.item.number)}>C</button>
-            <button style={{ backgroundColor: '#ff9999', fontSize: '32px' }} onClick={() => props.hdlDelete(props.item.id)}>X</button>
+            <button style={{ backgroundColor: '#1ABC9C', fontSize: '32px' }} onClick={() => props.hdlDelete(props.item.id)}>X</button>
         </div>
     );
 }
